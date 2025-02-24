@@ -1,4 +1,3 @@
-// © 2024 Konrad Grzanek <kongra@gmail.com>
 package telsos.logging;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -6,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import telsos.strings.NonBlank;
+import telsos.string.NonBlank;
 
 class MDCTest {
 

@@ -1,13 +1,12 @@
-// © 2024 Konrad Grzanek <kongra@gmail.com>
 package telsos.logging.impl;
 
 import org.eclipse.collections.api.factory.Maps;
 import org.eclipse.collections.api.map.MutableMap;
 
 import telsos.AbstractSingleUseBuilder;
-import telsos.functions.EntryConsumer;
+import telsos.function.EntryConsumer;
 import telsos.logging.MDC;
-import telsos.strings.NonBlank;
+import telsos.string.NonBlank;
 
 public class MDCBuilderImpl extends AbstractSingleUseBuilder<MDC>
     implements MDC.Builder {

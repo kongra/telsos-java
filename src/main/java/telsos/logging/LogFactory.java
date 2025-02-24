@@ -1,4 +1,3 @@
-// © 2024 Konrad Grzanek <kongra@gmail.com>
 package telsos.logging;
 
 import telsos.logging.impl.MDCBuilderImpl;
